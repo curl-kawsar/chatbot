@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beta Version ChatBot</title>
+    <link rel="icon" href="./img/ai2.png" type="image/x-icon">
+    <link
+      href="./palmbot.css"
+      rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      rel="stylesheet" />
+    <script src="./palmbot.js" defer></script>
+    <!-- Add the Tailwind CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="background p-4 ">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between">
+          <div class="text-white font-bold text-lg">ChatBot</div>
+          <div class="flex space-x-4">
+            <a href="#" class="text-white">About</a>
+            <a href="#" class="text-white">History</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="chat-container">
+      <!-- Your chat content goes here -->
+    </div>
+    <div class="typing-container">
+      <div class="typing-content">
+        <div class="typing-textarea">
+          <textarea class="chat-input"
+            placeholder="Enter Your Message Here!"></textarea>
+          <span class="send-btn material-symbols-rounded">send</span>
+        </div>
+        <div class="typing-setting">
+          <span class="theme-btn"></span>
+          <span class="delete-btn material-symbols-rounded">delete</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
